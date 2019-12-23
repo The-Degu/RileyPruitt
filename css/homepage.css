@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgb(247, 226, 201);
+    
+}
+p{
+    color:transparent
+}
+.background{
+    display: flex;
+
+
+    position: absolute;
+
+
+
+    width: 100%;
+    height: 100vh;
+    
+    
+    left: 25vw;  
+    top: 0;
+    background-image:url(../images/celistalmap.jpg);
+    
+    
+
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.systems{
+    position: absolute;
+
+   
+   
+    border-radius: 100%;
+    float: left;
+    background-size:cover ;     
+    transition: 0.5s;
+   
+}   
+
+.me{ 
+    height: 170px;
+    width: 170px;
+
+
+    left:19vw;  
+    top: 40vh;
+   
+    
+    
+   
+    display:flex;
+
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: space-around;
+    background-image: url(../images/sun.png)
+ }
+.sculpture{ 
+    
+    
+    left: 23.2vw;  
+    top: 47vh;
+
+    height:60px;
+    width:60px;
+    background-color:gray;
+   animation: rot infinite linear;
+    animation-duration: 10s;
+    animation-timing-function: cubic-bezier(1.25, 0.46, 0.45, 1.94)
+}
+.illistration{
+    
+    left:23vw;  
+    top: 47vh;
+   
+
+    display:flex;
+    background-image:url(https://www.publicdomainpictures.net/pictures/290000/nahled/textured-earth.jpg);
+    height:60px;
+    width:60px;
+    
+    animation: rot2  infinite linear;
+    animation-duration: 15s;
+    
+}
+.writing{
+
+     position: relative;
+    background-color: brown;
+    width:40px;
+    height:40px;
+    animation: rot3  infinite linear;
+    animation-duration: 4s;
+    
+}
+.fineart{
+    left:21.6vw;  
+    top: 44vh;
+
+    height: 100px;
+    width: 100px;
+    display:flex;
+    background-color:aliceblue;
+   
+    animation: rot4  infinite linear;
+    animation-duration: 8s;
+    
+}
+
+.systems:hover{
+    animation-play-state: paused;
+    transform:scale(200%);
+    background-image: url(/ful.png);
+    transform: scale(1.25);
+}
+.me:hover{
+    background-image: url(../images/sun.png)
+
+}
+.sculpture:hover{ 
+    
+    background-image: url(https://66.media.tumblr.com/978096d0b986649d8c3b837e68e30081/tumblr_p8u2crtX2g1utd2k7o3_1280.jpg);
+}
+.illistration:hover{
+    background-image: url(../images/ilistrationthumb/dragontumb.jpg);
+}
+.fineart:hover{
+    background-image: url(../images/neon1.jpg);
+}
+
+@keyframes rot {
+    from {
+        transform: rotate(0deg)
+                   translate(-150px)
+                   rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+                   translate(-150px) 
+                   rotate(-360deg);
+    }}
+@keyframes rot2 {
+     from {
+        transform: rotate(0deg)
+                    translate(-310px)
+                    rotate(0deg);
+        }
+     to {
+         transform: rotate(360deg)
+                    translate(-310px) 
+                    rotate(-360deg);
+        }}
+@keyframes rot3 {
+     from {
+     transform: rotate(0deg)
+                     translate(-70px)
+                    rotate(0deg);
+         }
+        to {
+         transform: rotate(360deg)
+                     translate(-70px) 
+                        rotate(-360deg);
+         }}
+@keyframes rot4 {
+        from {
+             transform: rotate(0deg)
+                         translate(-420px)
+                            rotate(0deg);
+    }
+    to {
+             transform: rotate(360deg)
+                        translate(-420px) 
+                         rotate(-360deg);
+    }}
+        
+    @media screen and (max-width: 1000px){
+        * {
+            
+           }
+        p{
+            color:black;
+            font-family: cursive;
+            font-size: 200%
+        }
+       .background{ 
+           background-image: none;
+            display:flex;
+            flex-direction: column;
+            align-content: space-around;
+            height:110vh;
+       }
+       .systems{
+        background-size:cover;
+        background-repeat: no-repeat;
+        position: inherit;
+        border-radius: 0%;
+        width:45vw;
+        height:25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        -webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+        animation: none !important;
+        margin:1vh;
+        
+       }
+       .me{
+           background-image:none;
+            background-color:rgb(77, 114, 77);
+           
+       }
+       .sculpture{
+           background-image:url(https://66.media.tumblr.com/978096d0b986649d8c3b837e68e30081/tumblr_p8u2crtX2g1utd2k7o3_1280.jpg);
+       }
+       .writing{
+           background-image:url(../images/ilistrationthumb/dragontumb.jpg)}
+
+       .fineart{
+           background-image:url(../images/neon1.jpg);
+       }
+       .illistration{
+           background-image:none;
+       }
+       .me:hover{
+        background-image: url()}
+
+    .sculpture:hover{ 
+        
+        background-image: url(https://66.media.tumblr.com/978096d0b986649d8c3b837e68e30081/tumblr_p8u2crtX2g1utd2k7o3_1280.jpg);
+    }
+    .writing:hover{
+        background-image: url(../images/ilistrationthumb/dragontumb.jpg);
+    }
+    .fineart:hover{
+        background-image: url(../images/neon1.jpg);
+    }
+    .illistration:hover{
+        background-image:none;
+    }
+       
+    }

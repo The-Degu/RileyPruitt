@@ -1,0 +1,165 @@
+*{
+   
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: tan;
+}
+.wrapper{
+    display: flex;
+    width:100vw;
+    height: 100vh;
+    background-color: transparent;
+
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: left;  
+    
+    
+
+}
+.images{
+    position:inherit;
+    display: flex;
+    width:45vw;
+    height: 100vh;
+    background-color: transparent;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    margin: 10px; 
+}
+.text{
+    position:fixed;
+    top:150px;
+    right:20px;
+    padding: 15px;
+    width: 40vw;
+    height: 40vh;
+
+    
+    overflow: scroll;
+    text-align: center;
+
+
+    background-color: wheat;
+    border: 1px dashed brown;
+}
+#outside{
+position: relative;
+text-align: right;
+position: fixed;
+bottom: 0;
+right:0 
+}
+
+
+.picture{
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+    height: 80vh;
+    width:80vw;
+}
+.one{
+    height: 80vh;
+    width:80vh;
+}
+.two{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/skull3.jpg);
+    height: 80vh;
+    width:80vh;
+}
+.three{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/IMG_9425.JPG);
+    height: 80vh;
+    width:80vh;
+}
+.four{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/drake.jpg);
+    height: 80vh;
+    width:80vh;  
+}
+.five{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/duck.jpg);
+    height: 80vh;
+    width:80vh;  
+}
+.six{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/antler.jpg);
+    height: 80vh;
+    width:80vh;
+}
+.sevin{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/);
+    height: 80vh;
+    width:80vh;
+}
+.eight{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/alien.jpg);
+    height: 80vh;
+    width:80vh;
+}
+/* .nine{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/);
+    height: 80vh;
+    width:80vh;
+}
+.ten{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/);
+    height: 80vh;
+    width:80vh; */
+
+/* need to take more images of this work */
+.elevin{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/frontchest.jpg);
+}
+.twelve{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/chest2.jpg);
+  
+}
+.thirteen{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/legs.jpg);
+  
+}
+.fourteen{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/placeholder.jpg);
+}
+.fifteen{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/goat.jpg);
+}
+.sixteen{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/dragon.jpg);
+}
+.sevinteen{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/wolf.jpg);
+}
+.eightteen{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/bug.jpg);
+}
+.nineteen{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/screen1.png);
+}
+.twenty{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/screen2.png);
+}
+.twentyone{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/baloon.jpg);
+}
+.twentytwo{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/horse.jpg);
+}
+.twentythree{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/birb.jpg);
+}
+.twentyfour{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/masks.png);
+}
+.twentyfive{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/staff.jpg);
+}
+.twentysix{
+    background-image:url(../indivigalwokrs/sculpture/fullimages/sphinx.jpg);
+}
+/* background-image:url(../indivigalwokrs/sculpture/fullimages/); */

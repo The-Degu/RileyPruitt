@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:tan;
+  }
+  
+  .map{
+      position: fixed;
+      display: flex;
+      width:100%;
+      height: 800px;
+      margin-top:30px;
+      background-image:url(../images/map.png );
+      background-size:contain;
+      background-repeat: no-repeat;
+
+      justify-content: center;  
+      align-items: top;
+  }
+  h1{
+      background-color: transparent;
+      color:transparent
+  }
+  #name{
+      position: static;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      
+      width:400px;
+      height: 80px;
+      background-color: cornsilk;
+      text-align: center;
+      font-family: cursive;
+      font-size: 250%;
+      color: brown;
+  }
+  
+  .pin{
+      position: fixed;
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      background-color:red;
+      margin:0;
+      background: radial-gradient(circle at 5px 5px, #dc0000, rgb(63, 10, 10));
+      opacity: 1;
+      box-shadow: 10px 10px 5px grey; 
+      transition:all .2s;
+  }
+  .one{
+      top:500px;
+      left:45px;
+  }
+  .two{
+      top:600px;
+      left:500px;
+  }
+  .three{
+      top:400px;
+      left:1000px;
+  }
+  .four   {
+      top:200px;
+      left:730px;
+  }
+  .five{
+      top:200px ;
+      left:1110px;
+  }
+  .six{
+      top:330px;
+      left: 560px;
+  }
+  .pin:hover{
+      border-radius: 0%;
+      background-size:contain;
+      height:200px;
+      width:200px;
+      background-color: green;
+  }
+  .one:hover{
+      background-image: url(../images/ilistrationthumb/girl2.jpg);
+       /* misc ocs */
+  }
+  .two:hover{
+      background-image: url(../images/ilistrationthumb/birb.jpg);}
+  /* monster design */
+  .three:hover{
+      background-image: url(../images/ilistrationthumb/caldeathumb.jpg);
+     /* caldera */
+  }
+  .four:hover{
+      background-image: url(../images/ilistrationthumb/dragontumb.jpg);
+     /* reath  */
+  } 
+  .five:hover{
+      background-image: url(../images/ilistrationthumb/ful.jpg);
+      /* LG */
+  }
+  .six:hover{
+      background-image: url(../images/ilistrationthumb/trq.jpg);
+      /* fanart */
+  }
+  
+
+  @media screen and (max-width: 1000px){
+  
+   .map{ 
+       width:100vw;
+       height:150vh;
+       position: inherit;
+       background-image: none;
+        display:flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items:center
+   }
+   .pin{
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: inherit;
+    border-radius: 0%;
+    width:45vw;
+    height:25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    margin:1vh;
+    
+   }
+.pin:hover{
+    border-radius: 0%;
+    background-size:cover;
+    width:45vw;
+    height:25vh;
+    background-color: transparent;
+}
+#name{
+    color:transparent;
+    background-color: transparent;
+}
+h1{
+    background-color: transparent;
+    color:black;
+    font-family: cursive;
+}
+   
+}
