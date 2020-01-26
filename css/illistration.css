@@ -47,6 +47,7 @@
       opacity: 1;
       box-shadow: 10px 10px 5px grey; 
       transition:all .2s;
+     
   }
   .one{
       top:500px;
@@ -69,6 +70,7 @@
       left:1110px;
   }
   .six{
+     
       top:330px;
       left: 560px;
   }
@@ -99,8 +101,10 @@
       /* LG */
   }
   .six:hover{
-      background-image: url(../images/ilistrationthumb/trq.jpg);
-      /* fanart */
+      background-image: url(../images/ilistrationthumb/mermaid.JPG);
+      background-size:cover;
+      background-repeat: no-repeat;
+      /* Roxie heart */
   }
   
 

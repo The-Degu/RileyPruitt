@@ -125,4 +125,34 @@ right:0
 .twentyone{
     background-image:url(../indivigalwokrs/illistration/fulldrawings/follas.jpg)
 }
+.fullshot{
+    background-image:url(../indivigalwokrs/illistration/fulldrawings/choiceimages/group.JPG)
+}
+.witch{
+    background-image:url(../indivigalwokrs/illistration/fulldrawings/choiceimages/witch.JPG);
+    transform: rotate(-90deg);
+}
+.zombie {  background-image:url(../indivigalwokrs/illistration/fulldrawings/choiceimages/zomb.JPG);
+    transform: rotate(-90deg);
+}
+.selkie{
+    background-image:url(../indivigalwokrs/illistration/fulldrawings/choiceimages/selkie.JPG);
+    transform: rotate(-90deg);
+}
+.vampire{
+    background-image:url(../indivigalwokrs/illistration/fulldrawings/choiceimages/vamp.JPG);
+    transform: rotate(-90deg);
+}
+.werewolf{
+    background-image:url(../indivigalwokrs/illistration/fulldrawings/choiceimages/were.JPG);
+    transform: rotate(-90deg);
+}
+.ghost{
+    background-image:url(../indivigalwokrs/illistration/fulldrawings/choiceimages/ghost.JPG);
+    transform: rotate(-90deg);
+}
+.mermaid{
+    background-image:url(../indivigalwokrs/illistration/fulldrawings/choiceimages/mermaid.JPG);
+    
+}
 /* background-image:url(../indivigalwokrs/illistration/fulldrawings/) */
