@@ -3,7 +3,7 @@
     padding:0;
     background-color:tan;
   }
-  
+
   .map{
       position: fixed;
       display: flex;
@@ -50,29 +50,33 @@
      
   }
   .one{
-      top:500px;
-      left:45px;
+      top:34vh;
+      left:40vw;
   }
   .two{
-      top:600px;
-      left:500px;
+      top:60vh;
+      left:5vw;
   }
   .three{
-      top:400px;
-      left:1000px;
+      top:40vh;
+      left:10vw;
   }
   .four   {
-      top:200px;
-      left:730px;
+      top:60vh;
+      left:73vw;
   }
   .five{
-      top:200px ;
-      left:1110px;
+      top:20vh;
+      left:51vw;
   }
   .six{
      
-      top:330px;
-      left: 560px;
+      top:33vh;
+      left: 56vw;
+  }
+  .sevin{
+      top: 37vh;
+      left: 80vw;
   }
   .pin:hover{
       border-radius: 0%;
@@ -106,13 +110,16 @@
       background-repeat: no-repeat;
       /* Roxie heart */
   }
+  .sevin:hover{
+      background-image:url(../images/ilistrationthumb/dndr.png)
+  }
   
 
   @media screen and (max-width: 1000px){
   
    .map{ 
        width:100vw;
-       height:150vh;
+       height:auto;
        position: inherit;
        background-image: none;
         display:flex;
